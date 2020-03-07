@@ -1,23 +1,40 @@
-body {
-	font-family: 'Playfair Display', serif;
+/* Normalize */
+html {
+    box-sizing: border-box;
 }
 
-.wrapper {
-	box-sizing: border-box;
-	font-size: 0;	
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+/* Styles */
+body {
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+
+.wrapper {		
 	border: 1px solid #cccccc;
-	width: 470px;
-	padding: 40px 25px 0;
+	width: 960px;
+	padding: 30px 8px 0 8px;
 	margin: 0 auto;
-	box-shadow: 1px 2px 6px 0 rgba(0,0,0,0.5);
+	box-shadow: 1px 2px 5px 0 rgba(0,0,0,0.5);
+	font-size: 0;
+}
+
+.card-1, .card-2 {
+	display: inline-block;
+	width: 470px;	
+	vertical-align: top;
 }
 
 img {
 	display: block;
 	max-width: 100%;
 	height: auto;	
-	margin: 0 auto;
-	font-size: 0;
+	margin: 0 auto;	
 	margin-bottom: 30px;
 }
 
@@ -28,20 +45,18 @@ img {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
 	text-align: left;
-	margin: 0 0 25px 0px;	
+	margin: 0 0 25px 30px;	
 }
 
  .subtitle-item {	
 	font-size: 30px;
-	font-weight: 400;
-	color: #626262;
+	font-weight: 400;	
 	text-align: left;	
-	margin: 0 0 36px 0px;	
+	margin: 0 0 36px 30px;	
 }
 
 .text-item {
 	font-size: 14px;
-	color: #626262;
 	font-weight: 400;
-	margin: 0 9px 30px 0px;	
+	margin: 0 9px 30px 30px;	
 }
