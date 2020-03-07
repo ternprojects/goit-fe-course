@@ -13,6 +13,7 @@ html {
 body {
 	font-family: 'Playfair Display', serif;
 	color: #626262;
+	padding-top: 10px;
 }
 
 .wrapper {		
