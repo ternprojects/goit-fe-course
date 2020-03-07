@@ -1,0 +1,35 @@
+* {
+	outline: 1px solid black;
+	margin: 0;
+}
+
+body {
+  background: #ccc;
+	font-family: Arial, serif;
+	font-weight: 700;
+}
+
+.menu {
+  width: 600px;
+  margin: auto; 
+	background: #0f0;
+	padding: 10px 0 10px 40px;
+	text-align: center;
+}
+
+.menu-item
+{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.menu-link {
+	display: block;
+	width: 50px;	
+	text-align: center;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c00;
+}
