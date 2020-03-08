@@ -1,0 +1,83 @@
+/*Normalize*******************************/
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;  
+}
+/*********************************************/
+
+/* Hidden title*******************************/
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/**********************************************/
+
+/*Global optimization picteres*****************/
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/**********************************************/
+
+body {
+  font-family: 'Playfair Display', serif;
+  color: #626262;
+  font-size: 14px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;  
+}
+
+.header {
+  padding-top: 68px;  
+  padding-bottom: 98px;
+}
+
+.menu {
+  text-align: center;
+  list-style: none;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.menu a {  
+  color: #626262;
+  text-decoration: none;
+  text-transform: uppercase;  
+}
+
+.menu a:hover,
+.menu a:focus {
+  color: #03a9f4;
+}
+
+
