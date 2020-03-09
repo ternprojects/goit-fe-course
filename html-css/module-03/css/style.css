@@ -9,7 +9,7 @@ html {
 }
 /*********************************************/
 
-/* Hidden title*******************************/
+/*Hidden title*******************************/
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -54,29 +54,28 @@ body {
   padding-bottom: 98px;
 }
 
-.menu {
+.header-menu {
   text-align: center;
   list-style: none;
-  font-size: 14px;
   margin: 0;
   padding: 0;
 }
 
-.menu li {
+.header-menu li {
   display: inline-block;
 }
 
-.menu li:not(:last-child) {
+.header-menu li:not(:last-child) {
   margin-right: 60px;
 }
 
-.menu a {
+.header-menu a {
   color: #626262;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.menu a:hover,
+.header-menu a:hover,
 .menu a:focus {
   color: #03a9f4;
 }
@@ -91,8 +90,7 @@ body {
   vertical-align: top;
   width: 420px; 
   display: inline-block;
-  margin-right: 60px;
-  font-size: 14px;
+  margin: 0 60px 0 0;
 }
 
 .title {
