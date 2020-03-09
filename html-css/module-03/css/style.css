@@ -34,6 +34,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin-bottom: 26px;
 }
 /**********************************************/
 
@@ -79,3 +80,54 @@ body {
 .menu a:focus {
   color: #03a9f4;
 }
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.card {
+  vertical-align: top;
+  width: 420px; 
+  display: inline-block;
+  margin-right: 60px;
+  font-size: 14px;
+}
+
+.title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  margin: 0 0 25px 0;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin: 0 0 32px 0;
+  font-size: 30px;
+}
+
+.content {
+  margin: 0 0 130px 0;
+  font-size: 14px;
+}
+
+article:nth-child(2n) { 
+  margin-right: -4px;
+}
+
+.margin { 
+  margin-bottom: 85px;
+}
+
+.btn {
+ display: block;
+ border: 1px  rgb(98, 98, 98) solid;
+ background-color: #ffffff;
+ font-size: 20px;
+ margin: 0 auto 20px;
+ width: 162px;
+ height: 58px;
+}
+
