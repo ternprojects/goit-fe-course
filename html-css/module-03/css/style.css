@@ -109,9 +109,10 @@ body {
 .content {
   margin: 0 0 130px 0;
   font-size: 14px;
+  line-height: 1.714;
 }
 
-article:nth-child(2n) { 
+article:nth-child(2n) {
   margin-right: -4px;
 }
 
@@ -128,4 +129,3 @@ article:nth-child(2n) {
  width: 162px;
  height: 58px;
 }
-
