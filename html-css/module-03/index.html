@@ -6,68 +6,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ноmework-01</title>
-    <link rel="stylesheet" href="css/normalize.css"> 
+    <title>Ноmework-03</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"> 
-
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-
     <h1 class="visually-hidden">Our first site</h1>
-    
-    <header class="header">
-      <nav>
-        <ul class="header-menu">
-          <li><a href="#">lifestyle</a></li>
-          <li><a href="#">photodiary</a></li>
-          <li><a href="#">music</a></li>
-          <li><a href="#">travel</a></li>
-        </ul>
-      </nav>
-    </header>
-  
-    <main class="container">
-      <section>
+    <main>
+      <div class="container">
 
-        <h2 class="visually-hidden">Cards</h2>
+        <header>
+          <div class = "header">
+            <nav>
+              <ul class="header-menu">
+                <li><a href="#">lifestyle</a></li>
+                <li><a href="#">photodiary</a></li>
+                <li><a href="#">music</a></li>
+                <li><a href="#">travel</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
 
-        <div class="wrapper">
+        <section>
 
-          <article class="card">
-            <img src="img/top_left.jpg" alt="picture_1" width="420" height="280">
-            <p class="title">Lifestyle</p>
-            <h2 class="subtitle">More than just a music festival</h2>
-            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, auis nostrud exercitation ullamko laboris</p>
-          </article>
+          <h2 class="visually-hidden">Cards</h2>
 
-          <article class="card">
-            <img src="img/top_right.jpg" alt="picture_1" width="420" height="280">
-            <p class="title">Lifestyle</p>
-            <h2 class="subtitle">More than just a music festival</h2>
-            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, auis nostrud exercitation ullamko laboris</p>
-          </article>
+          <div class="wrapper">
 
-          <article class="card">
-            <img src="img/bottom_left.jpg" alt="picture_2" width="420" height="280">
-            <p class="title">photodiary</p>
-            <h2 class="subtitle">Life tastes better with coffee</h2>
-            <p class="content margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, auis nostrud exercitation ullamko laboris</p>
-          </article>
+            <article class="card-top">
+              <img src="img/top_left.jpg" alt="picture_1" width="420" height="280">
+              <p class="title">Lifestyle</p>
+              <h2 class="subtitle">More than just a music festival</h2>
+              <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, auis nostrud exercitation ullamko laboris</p>
+            </article>
 
-          <article class="card">
+            <article class="card-top">
+              <img src="img/top_right.jpg" alt="picture_1" width="420" height="280">
+              <p class="title">Lifestyle</p>
+              <h2 class="subtitle">More than just a music festival</h2>
+              <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, auis nostrud exercitation ullamko laboris</p>
+            </article>
+
+            <article class="card-bottom">
+              <img src="img/bottom_left.jpg" alt="picture_2" width="420" height="280">
+              <p class="title">photodiary</p>
+              <h2 class="subtitle">Life tastes better with coffee</h2>
+              <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, auis nostrud exercitation ullamko laboris</p>
+            </article>
+
+            <article class="card-bottom">
               <img src="img/bottom_right.jpg" alt="picture_4" width="420" height="280">
               <p class="title">photodiary</p>
               <h2 class="subtitle">A day exploring the Alps</h2>
-              <p class="content margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, auis nostrud exercitation ullamko laboris</p>
-          </article>
+              <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, auis nostrud exercitation ullamko laboris</p>
+            </article>
+            
+              <button class="btn">Load more</button>
 
-          <button class="btn">Load more</button>
-
-        </div>
-
-      </section>
+          </div>
+        </section>
+      </div>
     </main>
   </body>
 </html>

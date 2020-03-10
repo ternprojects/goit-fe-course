@@ -70,6 +70,7 @@ body {
 }
 
 .header-menu a {
+  display: block;
   color: #626262;
   text-decoration: none;
   text-transform: uppercase;
@@ -81,16 +82,20 @@ body {
 }
 
 .wrapper {
-  margin: 0;
+  margin: 0 0 20px 0;
   padding: 0;
   font-size: 0;
 }
 
-.card {
+.card-top, .card-bottom {
   vertical-align: top;
   width: 420px; 
   display: inline-block;
-  margin: 0 60px 0 0;
+  margin: 0 60px 130px 0;
+}
+
+.card-bottom {
+  margin-bottom: 85px;
 }
 
 .title {
@@ -107,17 +112,13 @@ body {
 }
 
 .content {
-  margin: 0 0 130px 0;
   font-size: 14px;
   line-height: 1.714;
+  margin: 0;
 }
 
 article:nth-child(2n) {
-  margin-right: -4px;
-}
-
-.margin { 
-  margin-bottom: 85px;
+  margin-right: -0px;
 }
 
 .btn {
@@ -125,7 +126,12 @@ article:nth-child(2n) {
  border: 1px  rgb(98, 98, 98) solid;
  background-color: #ffffff;
  font-size: 20px;
- margin: 0 auto 20px;
  width: 162px;
  height: 58px;
+ margin: 0 auto;
+}
+
+.btn:hover {
+  border-color: #03a9f4;
+  color: #03a9f4;
 }
