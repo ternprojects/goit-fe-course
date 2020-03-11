@@ -6,6 +6,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  outline: 1px solid black;
 }
 /*********************************************/
 
@@ -51,7 +52,6 @@ body {
 
 .header {
   padding-top: 68px;
-  padding-bottom: 98px;
 }
 
 .header-menu {
@@ -81,17 +81,17 @@ body {
   color: #03a9f4;
 }
 
-.wrapper {
-  margin: 0 0 20px 0;
-  padding: 0;
+section {
   font-size: 0;
+  padding-top: 98px;
+  padding-bottom: 20px;
 }
 
 .card-top, .card-bottom {
   vertical-align: top;
   width: 420px; 
   display: inline-block;
-  margin: 0 60px 130px 0;
+  margin-bottom: 130px;
 }
 
 .card-bottom {
@@ -118,7 +118,7 @@ body {
 }
 
 article:nth-child(2n) {
-  margin-right: -0px;
+  margin-right: 60px;
 }
 
 .btn {
