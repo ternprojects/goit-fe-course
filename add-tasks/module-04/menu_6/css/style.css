@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.head {
+  max-width: 960px;
+  margin: 20px auto;
+  height: 100px;
+  line-height: 50px;
+  border: 3px solid #212121;
+  padding: 20px;
+}
+
+.site-navigation {
+  margin: auto;
+  font-family: Roboto, sans-serif;
+}
+
+.site-navigation li {
+  float: left;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.site-navigation a {
+  display: block;
+  padding: 0 10px;
+  font-size: 20px;
+  color: #212121;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Сработает при hover */
+.site-navigation a:hover {
+  color: #03a9f4;
+}
+
+/* Сработает при удержании кнопки мыши на ссылке */
+.site-navigation a:focus {
+  color: #ff4081;
+}
+
+.clearfix {
+  display: table;
+  content: "";
+  clear: both;
+}
