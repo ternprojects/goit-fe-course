@@ -4,12 +4,16 @@
   margin: 0;
 }
 
+body {
+  counter-reset: li;
+}
+
 .head {
-  max-width: 960px;
-  margin: 20px auto;
+  max-width: 1000px;
+  margin: 20px auto 0;
   height: 100px;
   line-height: 50px;
-  border: 3px solid #212121;
+  border: 2px solid #212121;
   padding: 20px;
 }
 
@@ -20,7 +24,7 @@
 
 .site-navigation li {
   float: left;
-  list-style: none; 
+  list-style: none;
 }
 
 .site-navigation li:not(:last-child) {
@@ -29,12 +33,20 @@
 
 .site-navigation a {
   display: block;
-  padding: 0 10px;
   font-size: 20px;
   color: #212121;
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.site-navigation a:before {
+  border: 2px solid red;
+  text-align: center; 
+  vertical-align: middle; 
+  counter-increment: li;
+  content: counter(li, upper-roman) ".";
+  color: blue;
 }
 
 /* Сработает при hover */

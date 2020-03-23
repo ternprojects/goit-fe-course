@@ -20,7 +20,10 @@
 
 .site-navigation li {
   float: left;
-  list-style: none;
+  list-style: none; 
+}
+
+.site-navigation li:not(:last-child) {
   margin-right: 20px;
 }
 
@@ -56,8 +59,6 @@
 .site-navigation a:focus {
   color: #ff4081;
 }
-
-
 
 .clearfix {
   display: table;
