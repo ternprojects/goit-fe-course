@@ -33,11 +33,264 @@ input[type="radio"].visually-hidden {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
-  margin-bottom: 26px;
 }
 /**********************************************/
 
 body {
-
+  font-family: Roboto, sans-serif;
+  color: #555252;
+  font-size: 14px;
 }
+/**********************************************/
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+/*CLEARFIX********************************/
+.clearfix::after {
+  display: table; /* для старых браузеров */
+  content: "";
+  clear: both;
+}
+/*************************************/
+
+/*HEAD********************************/
+.logo {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #555252;
+}
+
+.header {
+  margin-top: 38px;
+}
+
+.header::first-letter {
+  font-weight: 900;
+  color: #1abc9c;
+}
+
+.header-menu {
+  float: right;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.header-menu li {
+  float: left;
+}
+
+.header li:nth-child(1) {
+  margin-right: 34px;
+}
+
+.header li:nth-child(2) {
+  margin-right: 36px;
+}
+
+.header li:nth-child(3) {
+  margin-right: 30px;
+}
+
+.header li:nth-child(4) {
+  margin-right: 28px;
+}
+
+.header li:nth-child(5) {
+  margin-right: 34px;
+}
+
+.header a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0f0101;
+}
+
+.header-menu a:hover,
+.header-menu a:focus {
+  color:#1abc9c;
+}
+/**********************************************/
+
+/*PRODUCTS*************************************/
+.title-products, .title-news {
+  text-align: center;
+  font-weight: 900;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin: 94px 0 0 0;
+}
+
+.title-news {
+  margin-top: 97px;
+}
+
+
+h2::after {
+  content: "";
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin: 24px auto;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 92px 0 0 0;
+  }
+
+.product-list-item {
+  float: left;
+  width: 255px;
+  }
+ 
+.product-list-item:not(:nth-child(4n+4)) {
+  margin-right: 30px;
+}
+
+.product-list-item:not(:nth-child(n+4)) {
+  margin-bottom: 30px;
+}
+
+.product-btn {
+  width: 254px;
+  background-color: #323232; 
+  height: 40px;
+  width: 255px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align-last: left;
+  border: 0;
+  padding: 0;
+}
+
+.product-btn::after {
+  content: " ";
+  float: right;
+  background-color: #8c8c8c;
+  width: 54px;
+  height: 40px;
+}
+
+.product-btn:hover,
+.product-btn:focus {
+  background-color: #1abc9c;
+}
+
+.product-btn:hover::after {
+  background-color: #7fd9c7;
+}
+
+.btn_1::after {
+  content: "26$";
+  padding: 14px;
+}
+
+.btn_2::after {
+  content: "31$";
+  padding: 14px;
+}
+
+.btn_3::after {
+  content: "21$";
+  padding: 14px;
+}
+
+.btn_4::after {
+  content: "56$";
+  padding: 14px;
+}
+
+.btn_5::after {
+  content: "26$";
+  padding: 14px;
+}
+
+.btn_6::after {
+  content: "31$";
+  padding: 14px;
+}
+
+.btn_7::after {
+  content: "21$";
+  padding: 14px;
+}
+
+.btn_8::after {
+  content: "56$";
+  padding: 14px;
+}
+
+.cloth {
+  display: inline-block;
+  padding: 14px 0 0 14px;
+}
+ /**********************************************/
+
+ /*ARTICLES*************************************/
+.articles {
+  margin: 80px 0 82px 0;
+  list-style: none;
+  padding: 0;
+}
+
+.articles li {
+  float: left;
+  width: 350px;
+}
+
+.articles li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.article-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 14px 0 0 0;
+}
+
+.article-title::after {
+  content: "";
+  display: block;
+  width: 136px;
+  height: 3px;
+  background-color: #1abc9c;
+  margin: 11px 0 0 0;
+}
+
+.article-subtitle {
+  margin: 26px 0 0 0;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 26px;
+  font-size: 14px;
+}
+
+.article-btn {
+  border-radius: 3px;
+  background-color: #4ec6ab; 
+  width: 159px;
+  height: 51px;
+  border: 0;
+  margin-top: 12px;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/**********************************************/
+
