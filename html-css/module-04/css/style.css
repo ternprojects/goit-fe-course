@@ -162,7 +162,7 @@ h2::after {
   margin-bottom: 30px;
 }
 
-.product-btn {
+.product-btn{
   width: 254px;
   background-color: #323232; 
   height: 40px;
@@ -183,14 +183,29 @@ h2::after {
   height: 40px;
 }
 
-.product-btn:hover,
-.product-btn:focus {
+/*HOVER FOR ALL CARD**************************/
+.product-list-item:hover .product-btn {
+  background-color: #1abc9c;
+}
+
+.product-list-item:hover .product-btn::after {
+  background-color: #7fd9c7;
+}
+/*********************************************/
+
+/*HOVER FOR ONLY BUTTON***********************/
+/* .product-btn:hover {
   background-color: #1abc9c;
 }
 
 .product-btn:hover::after {
   background-color: #7fd9c7;
 }
+
+.product-btn:hover::after {
+  background-color: #7fd9c7;
+} */
+/***********************************************/
 
 .btn_1::after {
   content: "26$";
