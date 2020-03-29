@@ -88,7 +88,7 @@ body {
   float: left;
 }
 
-.header li:nth-child(1) {
+.header li:nth-child(-n+5) {
   margin-right: 34px;
 }
 
@@ -102,10 +102,6 @@ body {
 
 .header li:nth-child(4) {
   margin-right: 28px;
-}
-
-.header li:nth-child(5) {
-  margin-right: 34px;
 }
 
 .header a {
@@ -183,7 +179,7 @@ h2::after {
   height: 40px;
 }
 
-/*HOVER FOR ALL CARD**************************/
+/*HOVER EFFECT FOR ALL CARD**************************/
 .product-list-item:hover .product-btn {
   background-color: #1abc9c;
 }
@@ -193,7 +189,7 @@ h2::after {
 }
 /*********************************************/
 
-/*HOVER FOR ONLY BUTTON***********************/
+/*HOVER EFFECT FOR ONLY BUTTON***********************/
 /* .product-btn:hover {
   background-color: #1abc9c;
 }
@@ -296,8 +292,8 @@ h2::after {
 .article-btn {
   border-radius: 3px;
   background-color: #4ec6ab; 
-  width: 159px;
-  height: 51px;
+  width: 158px;
+  height: 50px;
   border: 0;
   margin-top: 12px;
   padding: 0;
@@ -306,6 +302,4 @@ h2::after {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-
 /**********************************************/
-
