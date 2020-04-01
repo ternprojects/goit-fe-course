@@ -56,6 +56,10 @@ body {
 /*************************************/
 
 /*HEAD********************************/
+header {
+  padding: 36px 0 96px 0;
+}
+
 .logo {
   text-decoration: none;
   font-size: 32px;
@@ -64,11 +68,7 @@ body {
   color: #555252;
 }
 
-.header {
-  margin-top: 38px;
-}
-
-.header::first-letter {
+nav::first-letter {
   font-weight: 900;
   color: #1abc9c;
 }
@@ -79,35 +79,39 @@ body {
   font-weight: 700;
   font-size: 14px;
   list-style: none;
-  margin: 0;
+  margin: 10px 0 0;
   padding: 0;
-  margin-top: 10px;
 }
 
 .header-menu li {
   float: left;
+  padding: 0;
 }
 
-.header li:nth-child(-n+5) {
+nav li:nth-child(-n+5) {
   margin-right: 34px;
 }
 
-.header li:nth-child(2) {
+nav li:nth-child(2) {
   margin-right: 36px;
 }
 
-.header li:nth-child(3) {
+nav li:nth-child(3) {
   margin-right: 30px;
 }
 
-.header li:nth-child(4) {
+nav li:nth-child(4) {
   margin-right: 28px;
 }
 
-.header a {
+nav a {
   text-transform: uppercase;
   text-decoration: none;
   color: #0f0101;
+}
+
+ul a {
+  display: block;
 }
 
 .header-menu a:hover,
@@ -117,18 +121,22 @@ body {
 /**********************************************/
 
 /*PRODUCTS*************************************/
-.title-products, .title-news {
+.section-products {
+  padding-top: 92px;
+  padding-bottom: 96px;
+}
+
+.section-title {
   text-align: center;
   font-weight: 900;
   font-size: 48px;
-  text-transform: uppercase;
-  margin: 94px 0 0 0;
+  text-transform: uppercase; 
+  margin: 0;
 }
 
-.title-news {
-  margin-top: 97px;
-}
-
+/* .padding {
+  margin-bottom: -10px;
+} */
 
 h2::after {
   content: "";
@@ -136,14 +144,18 @@ h2::after {
   width: 164px;
   height: 7px;
   background-color: #1abc9c;
-  margin: 24px auto;
+  margin: 24px auto 0;
 }
 
 .product-list {
   list-style: none;
   padding: 0;
-  margin: 92px 0 0 0;
+  margin: 0;
   }
+
+.product-list-item a {
+  display: block;
+}
 
 .product-list-item {
   float: left;
@@ -158,7 +170,7 @@ h2::after {
   margin-bottom: 30px;
 }
 
-.product-btn{
+.product-link{
   width: 254px;
   background-color: #323232; 
   height: 40px;
@@ -171,7 +183,7 @@ h2::after {
   padding: 0;
 }
 
-.product-btn::after {
+.product-link::after {
   content: " ";
   float: right;
   background-color: #8c8c8c;
@@ -180,11 +192,11 @@ h2::after {
 }
 
 /*HOVER EFFECT FOR ALL CARD**************************/
-.product-list-item:hover .product-btn {
+.product-list-item:hover .product-link {
   background-color: #1abc9c;
 }
 
-.product-list-item:hover .product-btn::after {
+.product-list-item:hover .product-link::after {
   background-color: #7fd9c7;
 }
 /*********************************************/
@@ -203,42 +215,42 @@ h2::after {
 } */
 /***********************************************/
 
-.btn_1::after {
+.link-1::after {
   content: "26$";
   padding: 14px;
 }
 
-.btn_2::after {
+.link-2::after {
   content: "31$";
   padding: 14px;
 }
 
-.btn_3::after {
+.link-3::after {
   content: "21$";
   padding: 14px;
 }
 
-.btn_4::after {
+.link-4::after {
   content: "56$";
   padding: 14px;
 }
 
-.btn_5::after {
+.link-5::after {
   content: "26$";
   padding: 14px;
 }
 
-.btn_6::after {
+.link-6::after {
   content: "31$";
   padding: 14px;
 }
 
-.btn_7::after {
+.link-7::after {
   content: "21$";
   padding: 14px;
 }
 
-.btn_8::after {
+.link-8::after {
   content: "56$";
   padding: 14px;
 }
@@ -250,9 +262,14 @@ h2::after {
  /**********************************************/
 
  /*ARTICLES*************************************/
+.section-articles {
+  padding-top: 80px;
+  padding-bottom: 82px;
+}
+
 .articles {
-  margin: 80px 0 82px 0;
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 
@@ -297,7 +314,17 @@ h2::after {
   border: 0;
   margin-top: 12px;
   padding: 0;
-  color: #fff;
+}
+
+.article-btn:hover,
+.article-btn:focus {
+  background-color: #000;
+}
+
+.article-btn a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
