@@ -57,7 +57,7 @@ body {
 
 /*HEAD********************************/
 header {
-  padding: 36px 0 96px 0;
+  padding-top: 36px;
 }
 
 .logo {
@@ -121,22 +121,23 @@ ul a {
 /**********************************************/
 
 /*PRODUCTS*************************************/
-.section-products {
-  padding-top: 92px;
-  padding-bottom: 96px;
-}
-
 .section-title {
   text-align: center;
   font-weight: 900;
   font-size: 48px;
-  text-transform: uppercase; 
+  text-transform: uppercase;
+  padding-top: 96px;
   margin: 0;
 }
 
-/* .padding {
-  margin-bottom: -10px;
-} */
+.products {
+  padding-bottom: 92px;
+}
+
+.news {
+  padding-bottom: 80px;
+}
+
 
 h2::after {
   content: "";
@@ -262,20 +263,23 @@ h2::after {
  /**********************************************/
 
  /*ARTICLES*************************************/
-.section-articles {
-  padding-top: 80px;
-  padding-bottom: 82px;
-}
-
 .articles {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
+.articles {
+  padding-bottom: 82px;
+}
+
 .articles li {
   float: left;
   width: 350px;
+}
+
+.articles img {
+  margin-bottom: 14px;
 }
 
 .articles li:not(:last-child) {
@@ -287,7 +291,7 @@ h2::after {
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
-  margin: 14px 0 0 0;
+  margin: 0 0 26px 0;
 }
 
 .article-title::after {
@@ -300,25 +304,41 @@ h2::after {
 }
 
 .article-subtitle {
-  margin: 26px 0 0 0;
   font-family: 'Open Sans', sans-serif;
   line-height: 26px;
   font-size: 14px;
+  margin: 0 0 12px 0;
 }
 
-.article-btn {
+ .article-link {
+  display: block;
   border-radius: 3px;
-  background-color: #4ec6ab; 
+  background-color: #4ec6ab;
+  width: 158px;
+  height: 50px;
+  border: 0; 
+  padding-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+} 
+
+.article-link:hover,
+.article-link:focus {
+  background-color: #323232;
+}
+
+/* .article-btn {
+  border-radius: 3px;
+  background-color: #4ec6ab;
   width: 158px;
   height: 50px;
   border: 0;
   margin-top: 12px;
   padding: 0;
-}
-
-.article-btn:hover,
-.article-btn:focus {
-  background-color: #000;
 }
 
 .article-btn a {
@@ -328,5 +348,5 @@ h2::after {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-}
+} */
 /**********************************************/
