@@ -35,7 +35,6 @@ img {
   max-width: 100%;
 }
 /**********************************************/
-
 body {
   font-family: Roboto, sans-serif;
   color: #555252;
@@ -46,7 +45,6 @@ body {
   width: 1110px;
   margin: 0 auto;
 }
-
 /*CLEARFIX********************************/
 .clearfix::after {
   display: table; /* для старых браузеров */
@@ -121,23 +119,20 @@ ul a {
 /**********************************************/
 
 /*PRODUCTS*************************************/
-.section-title {
+.products {
+  padding: 96px 0 0 0;
+}
+
+h2 {
   text-align: center;
   font-weight: 900;
   font-size: 48px;
   text-transform: uppercase;
-  padding-top: 96px;
-  margin: 0;
 }
 
-.products {
-  padding-bottom: 92px;
+.products-title {
+margin: 0 0 92px 0;
 }
-
-.news {
-  padding-bottom: 80px;
-}
-
 
 h2::after {
   content: "";
@@ -148,129 +143,81 @@ h2::after {
   margin: 24px auto 0;
 }
 
+.product-cost {
+  background-color: #323232;
+  text-align: center;
+}
+
+.product-cost h3 {
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+.product-cost p {
+  float: right;
+  margin: 0;
+  background-color: rgba(255, 255, 255, .5);
+  color: #ffffff;
+  font-weight: 700;
+  width: 54px;
+  height: 40px;
+  padding-top: 12px;
+}
+
+.product-cost:hover {
+  background-color: #1abc9c;
+}
+
+.product-link {
+  display: block;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+h3 {
+  display: inline-block;
+  margin-top: 0px;
+}
+
 .product-list {
   list-style: none;
   padding: 0;
   margin: 0;
   }
 
-.product-list-item a {
-  display: block;
-}
-
 .product-list-item {
   float: left;
   width: 255px;
   }
- 
-.product-list-item:not(:nth-child(4n+4)) {
+
+.product-list-item:hover .product-cost {
+  background-color: #1abc9c;
+}
+
+ .product-list-item:not(:nth-child(4n+4)) {
   margin-right: 30px;
 }
 
 .product-list-item:not(:nth-child(n+4)) {
   margin-bottom: 30px;
 }
+/**********************************************/
 
-.product-link{
-  width: 254px;
-  background-color: #323232; 
-  height: 40px;
-  width: 255px;
-  color: #fff;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align-last: left;
-  border: 0;
-  padding: 0;
+ /*ARTICLES*************************************/ 
+ .articles-title {
+  margin: 0 0 80px 0;
+} 
+
+.news {
+  padding: 96px 0 82px 0;
 }
 
-.product-link::after {
-  content: " ";
-  float: right;
-  background-color: #8c8c8c;
-  width: 54px;
-  height: 40px;
-}
-
-/*HOVER EFFECT FOR ALL CARD**************************/
-.product-list-item:hover .product-link {
-  background-color: #1abc9c;
-}
-
-.product-list-item:hover .product-link::after {
-  background-color: #7fd9c7;
-}
-/*********************************************/
-
-/*HOVER EFFECT FOR ONLY BUTTON***********************/
-/* .product-btn:hover {
-  background-color: #1abc9c;
-}
-
-.product-btn:hover::after {
-  background-color: #7fd9c7;
-}
-
-.product-btn:hover::after {
-  background-color: #7fd9c7;
-} */
-/***********************************************/
-
-.link-1::after {
-  content: "26$";
-  padding: 14px;
-}
-
-.link-2::after {
-  content: "31$";
-  padding: 14px;
-}
-
-.link-3::after {
-  content: "21$";
-  padding: 14px;
-}
-
-.link-4::after {
-  content: "56$";
-  padding: 14px;
-}
-
-.link-5::after {
-  content: "26$";
-  padding: 14px;
-}
-
-.link-6::after {
-  content: "31$";
-  padding: 14px;
-}
-
-.link-7::after {
-  content: "21$";
-  padding: 14px;
-}
-
-.link-8::after {
-  content: "56$";
-  padding: 14px;
-}
-
-.clothes {
-  display: inline-block;
-  padding: 14px 0 0 14px;
-}
- /**********************************************/
-
- /*ARTICLES*************************************/
-.articles {
+ .articles {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.articles {
-  padding-bottom: 82px;
 }
 
 .articles li {
@@ -324,29 +271,9 @@ h2::after {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-} 
+}
 
 .article-link:hover,
 .article-link:focus {
   background-color: #323232;
 }
-
-/* .article-btn {
-  border-radius: 3px;
-  background-color: #4ec6ab;
-  width: 158px;
-  height: 50px;
-  border: 0;
-  margin-top: 12px;
-  padding: 0;
-}
-
-.article-btn a {
-  display: block;
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-} */
-/**********************************************/
