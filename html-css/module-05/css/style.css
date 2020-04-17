@@ -132,7 +132,7 @@ nav a {
 }
 
 ul a {
-  sdiplay: block;
+  diplay: block;
 }
 
 .header-menu a:hover,
@@ -175,7 +175,7 @@ ul a {
   font-weight: 900;
   margin-bottom: 25px;
   padding: 0;
-  letter-spacing: -1.2;
+  letter-spacing: -1.2px;
 }
 
 .slider__subtitle {
@@ -249,39 +249,6 @@ ul a {
 /**********************************************/
 
 /*COLLECTION***********************************/
-
-/**********************************************/
-
-/*FOOTER***************************************/
-.footer {
-  position: relative;
-  width: 100%;
-  min-height: 90px;
-  background-color: #323232;
-}
-
-.footer__copyright {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'OpenSans', sans-serif;
-  font-size: 16px;
-  text-align: center;
-  color: #ffffff;
-}
-
-.footer__copyright a {
-  cursor: pointer;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.footer__copyright a:hover {
-  color: #46bfa9;
-}
-
-/**********************************************/
 .collection__wrapper {
   padding-bottom: 100px;
 }
@@ -343,14 +310,17 @@ h2 a {
 }
 
 .overlay {
+ /*  */
+ /* display: none; */
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -58%);
+  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  /* background-clip: padding-box;*/
+  background-clip: padding-box;
+  border: 10px solid rgba(255, 255, 255, .5);
 }
 
 .overlay__list {
@@ -365,6 +335,10 @@ h2 a {
   margin: 0;
   position: relative;
 }
+
+/* .collection-item:hover .overlay {
+  display: block;
+} */
 
 .overlay__list li:nth-child(n) {
   margin-right: 10px;
@@ -428,3 +402,34 @@ h2 a {
 .collection__image-wrap {
   position: relative;
 }
+/**********************************************/
+
+/*FOOTER***************************************/
+.footer {
+  position: relative;
+  width: 100%;
+  min-height: 90px;
+  background-color: #323232;
+}
+
+.footer__copyright {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'OpenSans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer__copyright a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #46bfa9;
+}
+
+.footer__copyright a:hover {
+  text-decoration: underline;
+}
+/**********************************************/
