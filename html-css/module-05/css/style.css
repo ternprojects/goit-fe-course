@@ -310,8 +310,8 @@ h2 a {
 }
 
 .overlay {
- /*  */
- /* display: none; */
+ /* Hover overlay - way of 1 */
+ /* display: none; */ 
   position: absolute;
   top: 50%;
   left: 50%;
@@ -321,6 +321,8 @@ h2 a {
   background-color: rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   border: 10px solid rgba(255, 255, 255, .5);
+  opacity: 0;
+  visibility: hidden;
 }
 
 .overlay__list {
@@ -336,9 +338,18 @@ h2 a {
   position: relative;
 }
 
-/* .collection-item:hover .overlay {
+ /* Hover overlay - way of 1 ***************/
+/*
+.collection-item:hover .overlay {
   display: block;
-} */
+} 
+
+/*******************************************/
+
+.collection-item:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+}
 
 .overlay__list li:nth-child(n) {
   margin-right: 10px;
