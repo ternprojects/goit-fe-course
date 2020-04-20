@@ -41,6 +41,10 @@ header {
   font-size: 14px;
 }
 
+.navigation__items {
+  position: relative;
+}
+
 .navigation__items li {
   position: relative;
   display: inline-block;
@@ -58,12 +62,12 @@ header {
   display: block;
 }
 
-.navigation__items a:hover,
-.navigation__items a:focus {
+.navigation__items-link:hover,
+.navigation__items-link:focus {
   color: #f38181;
 }
 
-.navigation li::after {
+.navigation__items::after {
   position: absolute;
   transform: translateY(10px);
   content: "";
@@ -75,7 +79,7 @@ header {
   height: 3px;
 }
 
-.navigation li:hover::after {
+.navigation__items-link:hover::after {
   opacity: 1;
   visibility: visible;
 }
@@ -183,17 +187,17 @@ header {
 }
 
 .team__item {
-  transition: all 200ms linear; 
+  transition: all 200ms linear;
 }
 
 .team__wrap-item-title {
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 1.2;
-   color: #333333;
-   text-transform: uppercase;
-   margin-top: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #333333;
+  text-transform: uppercase;
+  margin-top: 32px;
 }
 
 .team__wrap-item-subtitle {
@@ -220,9 +224,9 @@ header {
   box-shadow: 10px 10px 0px 0px #95e1d3;
   top: 0;
   background-image: linear-gradient(90deg, rgb(252, 227, 138) 0%, rgb(243, 129, 129) 100%);
- } 
+}
 
-.overlay:hover{
+.overlay:hover {
   opacity: .9;
 }
 
@@ -249,17 +253,17 @@ header {
 }
 
 .twitter {
-   background-image: url(../img/social_icons/twitter.png);
-    border-right: 1px solid #f38181;
+  background-image: url(../img/social_icons/twitter.png);
+  border-right: 1px solid #f38181;
 }
 
 .pinterest {
-   background-image: url(../img/social_icons/pinterest.png);
-   border-right: 1px solid #f38181;
+  background-image: url(../img/social_icons/pinterest.png);
+  border-right: 1px solid #f38181;
 }
 
 .instagram {
-   background-image: url(../img/social_icons/instagram.png);
+  background-image: url(../img/social_icons/instagram.png);
 }
 /*********************************************/
 
@@ -282,7 +286,7 @@ header {
 .footer__copyright {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  color: #000000; 
+  color: #000000;
 }
 
 .footer__copyright a {
@@ -307,7 +311,7 @@ header {
   height: 40px;
   border: 1px solid #e7e7e7;
   background-color: #ffffff;
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   font-weight: 300;
   font-style: italic;
