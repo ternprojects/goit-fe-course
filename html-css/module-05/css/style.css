@@ -47,7 +47,6 @@ button {
   border: none;
   background-color: transparent;
 }
-
 /**********************************************/
 
 body {
@@ -223,7 +222,6 @@ ul a {
   background-color: rgb(78, 198, 171);
   opacity: 1;
 }
-
 /**********************************************/
 
 /*TITLE***************************************/
@@ -342,8 +340,7 @@ h2 a {
 /*
 .collection-item:hover .overlay {
   display: block;
-} 
-
+}
 /*******************************************/
 
 .collection-item:hover .overlay {
