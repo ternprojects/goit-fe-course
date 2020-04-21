@@ -2,6 +2,7 @@
 :root {
   --overlay-gradient: linear-gradient(90deg, rgba(252, 227, 138, .9) 0%, rgba(243, 129, 129, .9) 100%);
 }
+
 /***********************************/
 
 body {
@@ -30,7 +31,7 @@ header {
 
 .logo {
   font-size: 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: #95e1d3;
   cursor: pointer;
@@ -45,8 +46,9 @@ header {
   display: flex;
   justify-content: space-between;
   width: 490px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  font-weight: 400;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -56,14 +58,15 @@ header {
   color: #95e1d3;
   display: block;
   position: relative;
+  transition: color 200ms linear;
 }
 
 .navigation__items a:hover,
 .navigation__items a:focus {
-  color: #f38181; 
+  color: #f38181;
 }
 
-.navigation__items a:hover::after {
+ .navigation__items a::after {
   position: absolute;
   transform: translateY(10px);
   content: "";
@@ -73,10 +76,10 @@ header {
   visibility: hidden;
   background-color: #f38181;
   height: 3px;
-}
+   transition: all 200ms linear;
+} 
 
 .navigation__items a:hover::after {
-  /* transition: all 200ms linear; */
   opacity: 1;
   visibility: visible;
 }
@@ -108,6 +111,7 @@ header {
   margin-top: 20px;
   text-transform: uppercase;
 }
+
 /*********************************************/
 
 /*SERVICES************************************/
@@ -167,6 +171,7 @@ header {
 .services__options .icon-6::before {
   background-image: url(../img/items_icons/image.png);
 }
+
 /*********************************************/
 
 /*TEAM****************************************/
