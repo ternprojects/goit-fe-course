@@ -1,6 +1,8 @@
+/*GLOBAL VARIABLES*****************/
 :root {
-  --overlay-gradient: linear-gradient(90deg, rgb(252, 227, 138) 0%, rgb(243, 129, 129) 100%);
+  --overlay-gradient: linear-gradient(90deg, rgba(252, 227, 138, .9) 0%, rgba(243, 129, 129, .9) 100%);
 }
+/***********************************/
 
 body {
   background-color: #ffffff;
@@ -17,13 +19,13 @@ body {
 /*HEADER************************************/
 header {
   padding-top: 26px;
-  padding-bottom: 124px; 
+  padding-bottom: 124px;
 }
 
 .navigation {
- display: flex;
- justify-content: space-between;
- align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .logo {
@@ -49,18 +51,19 @@ header {
   cursor: pointer;
 }
 
-.navigation__items-link {
+.navigation__items a {
   text-decoration: none;
   color: #95e1d3;
   display: block;
+  position: relative;
 }
 
-.navigation__items-link:hover,
-.navigation__items:focus {
+.navigation__items a:hover,
+.navigation__items a:focus {
   color: #f38181; 
 }
 
-.navigation__items::after {
+.navigation__items a:hover::after {
   position: absolute;
   transform: translateY(10px);
   content: "";
@@ -72,11 +75,11 @@ header {
   height: 3px;
 }
 
-.navigation__items:hover::after {
+.navigation__items a:hover::after {
+  /* transition: all 200ms linear; */
   opacity: 1;
   visibility: visible;
-  transition: all 200ms linear;
-}  
+}
 /*********************************************/
 
 /*TITLES****************************************/
@@ -86,7 +89,6 @@ header {
   color: #000000;
   text-align: center;
   margin-bottom: 48px;
-  text-transform: uppercase;
 }
 
 .services__title::after {
@@ -104,6 +106,7 @@ header {
   font-size: 30px;
   color: #000000;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 /*********************************************/
 
@@ -180,7 +183,8 @@ header {
 }
 
 .team__item {
- transition: all 200ms linear;
+  transition: all 200ms linear;
+  position: relative;
 }
 
 .team__wrap-item-title {
@@ -221,13 +225,12 @@ header {
 }
 
 .overlay:hover {
-  opacity: .9;
+  opacity: 1;
 }
 
 .team__icon {
   width: 56px;
   height: 56px;
-  background-color: #f38181;
   background-color: #fce38a;
   background-repeat: no-repeat;
   background-position: center;
@@ -259,6 +262,7 @@ header {
 .instagram {
   background-image: url(../img/social_icons/instagram.png);
 }
+
 /*********************************************/
 
 /*FOOTER**************************************/
@@ -324,4 +328,5 @@ header {
   color: #ffffff;
   text-transform: uppercase;
 }
+
 /*********************************************/
