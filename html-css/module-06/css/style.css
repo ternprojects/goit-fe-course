@@ -77,7 +77,7 @@ header {
   background-color: #f38181;
   height: 3px;
    transition: all 200ms linear;
-} 
+}
 
 .navigation__items a:hover::after {
   opacity: 1;
