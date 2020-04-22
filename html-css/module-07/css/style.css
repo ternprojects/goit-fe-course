@@ -1,7 +1,5 @@
 /*GLOBAL VARIABLES*****************/
-:root {
-
-}
+:root {}
 
 /***********************************/
 
@@ -19,8 +17,8 @@ body {
 
 /*HEADER************************************/
 header {
-   padding-top: 47px;
-   padding-bottom: 121px;
+  padding-top: 47px;
+  padding-bottom: 121px;
 }
 
 .logo {
@@ -36,12 +34,12 @@ nav {
 }
 
 nav ul a {
-   font-family: 'Montserrat', sans-serif;
-   font-size: 14px;
-   font-weight: 400;
-   color: #222222;
-   text-transform: uppercase;
-   transition: all 200ms linear;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #222222;
+  text-transform: uppercase;
+  transition: all 200ms linear;
 }
 
 nav a:hover,
@@ -64,7 +62,14 @@ h2 {
   font-size: 40px;
   color: #222222;
   text-transform: uppercase;
-  margin-bottom: 14px;
+  padding-bottom: 12px;
+  
+}
+
+.contacts__title {
+  color: #ffffff;
+  padding-top: 112px;
+  padding-bottom: 18px;
 }
 
 .section__subtitle {
@@ -96,10 +101,6 @@ h3 {
   color: #222222;
 }
 
-.menu__item-descr {
-  line-height: 1.2;
-}
-
 *::before {
   margin-bottom: 30px;
 }
@@ -119,7 +120,7 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
 
-  background-image: url(../img/icons/basket.png);
+  background-image: url('../img/icons/basket.png');
 }
 
 .laptop::before {
@@ -127,7 +128,7 @@ h3 {
   display: inline-block;
   width: 1px;
   height: 35px;
-  
+
   border-color: #fed136;
   border-radius: 50%;
   border-style: solid;
@@ -137,7 +138,7 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
 
-  background-image: url(../img/icons/laptop.png);
+  background-image: url('../img/icons/laptop.png');
 }
 
 .locked::before {
@@ -155,14 +156,33 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
 
-  background-image: url(../img/icons/locked.png);
+  background-image: url('../img/icons/locked.png');
 }
 /*********************************************/
 
-/*TEAM****************************************/
+/*CONTACTS****************************************/
+.contacts {
+  background-color: #222222;
+  background-image: url('../img/map.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
 
-/*********************************************/
+.contact-form {
+  
+}
 
-/*FOOTER**************************************/
-
+button {
+  display: block;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #fed136;
+  width: 240px;
+  height: 66px;
+  border-radius: 3px;
+}
 /*********************************************/
