@@ -46,18 +46,25 @@
       </ul>
     </section>
   </div>
-  <section class="contacts">
+  <section class="contact">
     <div class="container">
-      <h2 class="contacts__title">contact us</h2>
+      <h2 class="contact__title">contact us</h2>
       <p class="section__subtitle">Proin iaculis purus consequat sem cure.</p>
-      <form action="#" class="contact-form">
-        <input type="text" name="user-name" class="contact-form__input">
-        <input type="text" class="contact-form__input">
-        <input type="text" class="contact-form__input">
+      <form action="#" class="contact__form">
+        <div class="contact__form-area">
+          <div class="contact__form-inputs">
+            <input type="text" name="user-name" class="contact__form-input" placeholder="your name *" required minlength="2">
+            <input type="email" name="user-email" class="contact__form-input" placeholder="your e-mail *" required>
+            <input type="text" name="subject" class="contact__form-input" placeholder="subject" minlength="4">
+          </div>
+          <div class="contact__form-text">
+            <textarea name="message" class="contact__form-textarea" placeholder="your message *" required></textarea>
+          </div>
+        </div>
         <button type="submit">send message</button>
       </form>
-      
-    </div>
+      </div>
   </section>
 </body>
 </html>
+
