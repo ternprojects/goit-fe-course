@@ -90,8 +90,7 @@ h2 {
   margin-bottom: 112px;
 }
 
-li {
-  width: 280px;
+.menu li {
   text-align: center;
 }
 
@@ -193,28 +192,30 @@ h3 {
   font-size: 14px;
   font-weight: 700;
   border-color: #ffffff;
-  text-transform: uppercase;
+ 
   border-radius: 2px;
   background-color: #ffffff;
   font-family: "Montserrat", sans-serif;
   outline: none;
 }
 
-.contact__form-textarea { 
+.contact__form-textarea {
   height: 100%;
   margin: 0 auto;
-  padding: 18px 0px 0px 18px;
-  resize: none;  
+  padding: 18px 18px 0;
+  resize: none;
+  
 }
 
-.contact__form-textarea::placeholder, 
+.contact__form-textarea::placeholder,
 .contact__form-input::placeholder {
   color: #bbbbbb;
+  text-transform: uppercase;
 }
 
 .contact__form-input {
   height: 50px;
-  padding-left: 18px;
+  padding-left: 18px; 
 }
 
 .contact__form-input:not(:last-child) {

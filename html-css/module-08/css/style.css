@@ -32,10 +32,6 @@ body {
   padding: 12px 19px;
 }
 
-.reg-btn:not(:last-child) {
-  margin-right: 40px;
-}
-
 .reg-btn:hover,
 .reg-btn:focus {
    border-color: #ffffff;
@@ -86,10 +82,6 @@ h2 {
   margin-bottom: 138px;
 }
 /*********************************************/
-
-
-
-
 
 /*PARTNERS****************************************/
 
