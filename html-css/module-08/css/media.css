@@ -44,6 +44,15 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
+
+  .partners ul li:nth-of-type(2) {
+    order: 3;
+  }
+
+  .partners ul li:nth-of-type(4) {
+    order: 5;
+  }
+
 }
 
 @media (min-width: 1399px) {
@@ -77,8 +86,16 @@
      flex-wrap: nowrap;
   }
 
-  .partners ul li:not(:last-child) {
+  .partners__title-item {
+    margin-bottom: 0;
+  }
+
+.partners ul li:not(:last-child) {
     margin-right: 40px;
   }
 
+  .partners__title-btn {
+    margin: 40px 0 72px 0;
+  }
+  
 }
