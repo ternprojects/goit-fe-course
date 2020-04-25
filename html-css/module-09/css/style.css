@@ -1,0 +1,74 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13.95px;
+  font-weight: 300;
+  color: #333333;
+}
+
+.header {
+  background-image: url('../img/bg-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 138px;
+}
+
+.header__top-content {
+  margin-bottom: 100px;
+}
+
+.header__btn-wrapper {
+  margin-bottom: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 320px;
+}
+
+.authorization-list {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.header__content {
+  text-align: center;
+}
+
+.header__title {
+  margin: 30px 0 0 0;
+}
+
+.header__description {
+  margin: 20px 0 0 0;
+}
+
+
+.header__btn {
+  border-radius: 20px;
+  background-color: #ff4e50;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 50px;
+  margin-top: 40px;
+  width: 280px;
+  height: 40px;
+  font-family: 'Monserrat', sans-serif;
+}
+
+.header__btn:hover {
+  background-color: #ffffff;
+  border: solid 2px #ff4e50;
+  color: #ff4e50;
+}
