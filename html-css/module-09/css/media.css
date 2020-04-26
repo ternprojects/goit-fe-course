@@ -1,49 +1,54 @@
 @media (min-width: 767px) {
 
-.header {
-  background-image: url('../img/bg-tablet.jpg');  
-  padding: 45px 0 234px;
-}
+  .header {
+    background-image: url('../img/bg-tablet.jpg');
+    padding: 45px 0 234px;
+  }
 
-.header__content {
-  margin-top: 20px;
-}
+  .header__content {
+    margin-top: 20px;
+  }
 
-.header__title {
-  font-size: 52px;
-  width: 600px;
-}
+  .header__title {
+    font-size: 52px;
+    width: 600px;
+  }
 
-.header__description {
-  margin-top: 30px;
-}
+  .header__description {
+    margin-top: 30px;
+  }
 
-.header__btn {
-  margin-top: 38px;
-}
+  .header__btn {
+    margin-top: 38px;
+  }
 
- .authorization-list {
-   justify-content: flex-end;
- }
+  .authorization-list {
+    justify-content: flex-end;
+  }
 
   .logo {
     margin: 0;
   }
 
   .header__description {
-   width: 100%;
+    width: 100%;
   }
 
   .header__btn {
-    width: 220px;  
-    padding: 0 24px 0;
+    width: 270px;
+    padding: 0 25px 0;
   }
 
-  .partners ul {   
+  .partners__title-btn {
+    width: 270px;
+    padding: 0 25px 0;
+  }
+
+  .partners ul {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;    
-  } 
+    flex-wrap: wrap;
+  }
 
   .partners__title-item {
     margin: 0;
@@ -64,24 +69,24 @@
 }
 
 @media (min-width: 992px) AND (max-width: 1305px) {
- 
+
   .partners ul {
     flex-wrap: nowrap;
     justify-content: center;
   }
-} 
+}
 
 @media (min-width: 1399px) {
- 
- .header {
-   background-image: url('../img/bg-desktop.jpg'); 
-   padding-bottom: 236px;
+
+  .header {
+    background-image: url('../img/bg-desktop.jpg');
+    padding-bottom: 236px;
   }
 
   .partners__wrapper ul {
-  flex-wrap: nowrap;
-  justify-content: center; 
-}
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 
   .partners__title-item {
     margin: 0;
@@ -89,7 +94,16 @@
   }
 
   .partners ul {
-    justify-content: center;   
+    justify-content: center;
   }
 
- }
+  .header__btn {
+    width: 225px;
+    padding: 0 22px 0;
+}
+
+  .partners__title-btn {
+    width: 225px;
+    padding: 0 22px 0;
+}
+}

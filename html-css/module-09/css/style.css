@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 13.95px;
@@ -44,15 +43,15 @@ body {
 }
 
 .authorization-list__btn {
-   color: #ffffff;
-   font-size: 14px;
-   font-weight: 700;
-   font-family: 'Montserrat', sans-serif;
-   border-style: solid;
-   border-width: 2px;
-   border-color: transparent;
-   border-radius: 25px;
-   padding: 12px 22px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+  border-radius: 25px;
+  padding: 12px 22px;
 }
 
 .authorization-list__btn:hover {
@@ -69,18 +68,18 @@ body {
   width: 300px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 30px; 
+  font-size: 30px;
   text-transform: uppercase;
   color: #ffffff;
   margin: 0 auto;
 }
 
 .header__description {
-   font-size: 18px;
-   margin: 0 auto;
-   margin-top: 15px;
-   width: 230px;
-   color: #ffffff;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 230px;
+  color: #ffffff;
 }
 
 .header__btn {
@@ -101,6 +100,7 @@ body {
   border: solid 2px #ff4e50;
   color: #ff4e50;
 }
+
 /*************************************************/
 
 /*PARTNERS****************************************/
