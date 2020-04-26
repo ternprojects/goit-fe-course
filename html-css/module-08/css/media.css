@@ -12,38 +12,38 @@
     padding-top: 12px;
   }
 
-.header__area {
-  padding: 0 48px;
-}
+  .header__area {
+    padding: 0 48px;
+  }
 
   .header__subtitle {
     width: 100%;
     font-size: 24px;
-  }
+    }
 
   h1 {
     font-size: 20px;
-  }
+    }
 
   h1 a {
     padding-top: 12px;
-   
-  }
+    
+    }
 
   .header__title {
     width: 80%;
     margin: 0 auto;
     font-size: 52px;
     padding-bottom: 30px;
-  }
+    }
 
   .partners ul {
     width: 470px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-  }
+      flex-wrap: wrap;
+    }
 
   .partners ul li:nth-of-type(2) {
     order: 3;
@@ -56,46 +56,47 @@
 }
 
 @media (min-width: 1399px) {
+
   header {
     min-height: 700px;
     background-image: url('../img/bg-desktop.jpg');
     padding-bottom: 234px;
-  }
-  
+    }
+    
   .header__area {
     padding: 0 250px;
-  }
+    }
 
   .header__subtitle {
     width: 100%;
     font-size: 24px;
     margin-bottom: 38px;
-  }
+    }
 
   .header__title {
     width: 65%;
-    margin: 0 auto;
-  }
+      margin: 0 auto;
+    }
 
   .partners {
     margin: 0 auto;
-  }
+    }
 
   .partners ul {
-     justify-content: space-around;
-     flex-wrap: nowrap;
-  }
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    }
 
   .partners__title-item {
     margin-bottom: 0;
-  }
+    }
 
-.partners ul li:not(:last-child) {
+  .partners ul li:not(:last-child) {
     margin-right: 40px;
-  }
+    }
 
   .partners__title-btn {
     margin: 40px 0 72px 0;
-  }
-  
+    }
+    
 }
