@@ -12,15 +12,13 @@ header {
    background-repeat: no-repeat;
    object-fit: cover;
    height: 100%;
-   padding-top: 15px;
-   padding-bottom: 138px;
-   min-height: 40px;
+   padding: 15px 0 138px 0;
 }
 
 .container {
+  width: 100%;
   margin: 0 auto;
 }
-
 /*HEADER************************************/
 nav {
   margin-bottom: 40px;
@@ -128,6 +126,8 @@ h1 a {
   height: 121px;
   width: 121px;
   margin: 0 auto 24px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
 }
 
 .partners__title-photo::after {
