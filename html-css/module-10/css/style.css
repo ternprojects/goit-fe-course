@@ -6,7 +6,7 @@
 
 /***********************************/
 
-body {  
+body {
    font-family: 'Roboto', sans-serif;
    font-size: 15px;
    color: #999999;
@@ -33,22 +33,36 @@ body {
   }
 }
 
-header {
+.header {
   padding-top: 34px;
   padding-bottom: 204px; 
 }
 
-header nav {
+.navigation {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;  
+  align-items: baseline;
 }
 
-header ul {
+.header__list-wrapper {
   display: flex;
 }
 
-header ul a {
+.header__list {
+  display: flex; 
+  margin-right: 52px;
+}
+
+.header__icon {
+  display: flex;
+}
+
+.header__icon li:not(:last-child) {
+  margin-right: 42px;
+}
+
+.header__list a {
+  display: block;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -60,31 +74,35 @@ header ul a {
   position: relative;
 }
 
-header ul a:hover,
-header ul a:focus {
+.header__list a:hover,
+.header__list a:focus {
   color: #fce38a;
 }
 
-header ul a::after {
-position: absolute;
-transform: translateY(10px);
-content: "";
-display: block;
-width: 100%;
-opacity: 0;
-visibility: hidden;
-background-color: #fce38a;
-height: 3px;
-transition: all 200ms linear;
+.header__list a::after {
+  position: absolute;
+  transform: translateY(12px);
+  content: "";
+  display: block;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #fce38a;
+  height: 3px;
+  transition: all 200ms linear;
 }
 
-header ul a:hover::after {
+.header__list a:hover::after {
   opacity: 1;
   visibility: visible;
 }
 
-header ul li:not(:last-child) {
+.header__list li:not(:last-child) {
   margin-right: 54px;
+}
+
+.header__icon li:not(:last-child) {
+  margin-right: 42px;
 }
 
 .logo {
@@ -98,6 +116,23 @@ header ul li:not(:last-child) {
 
 .logo:focus {
   color: #fce38a;
+}
+
+.header__icon button {
+  display: block;
+  cursor: pointer;
+}
+
+.header__icon-glass {
+  background-image: url('../img/header_icons/glass.svg');
+  width: 18px;
+  height: 18px;
+  }
+
+.header__icon-cart {
+  background-image: url('../img/header_icons/cart.svg');
+  width: 18px;
+  height: 14px;
 }
 /*********************************************/
 

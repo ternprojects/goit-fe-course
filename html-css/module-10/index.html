@@ -18,20 +18,29 @@
 
     <div class="container">
 
-      <header>
+      <header class="header">
 
-        <nav>
+        <nav class="navigation">
 
           <a href="#" class="logo">MoGo</a>
 
-          <ul>
-            <li><a href="#">about</a></li>
-            <li><a href="#">service</a></li>
-            <li><a href="#">work</a></li>
-            <li><a href="#">blog</a></li>
-            <li><a href="#">contact</a></li>
-          </ul>
+          <div class="header__list-wrapper">
 
+            <ul class="header__list">
+              <li><a href="#">about</a></li>
+              <li><a href="#">service</a></li>
+              <li><a href="#">work</a></li>
+              <li><a href="#">blog</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          
+            <ul class="header__icon">
+              <li><button class="header__icon-glass" type="submit"></button></li>
+              <li><button class="header__icon-cart" type="submit"></button></li>
+            </ul>
+
+          </div>
+ 
         </nav>
 
       </header>
@@ -42,92 +51,98 @@
 
     <main>
       <section>
-        <h1 class="visually-hidden">Best service</h1>
-        <h2 class="services__title">We work with<span class="services__title-style">Amazing Services</span></h2>
-        <div class="services__options">
-          <ul class="services__options-nav">
-            <li class="icon-1">
-              <h4 class="services__options-nav-title">photography</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <div class="container">
+          <h1 class="visually-hidden">Best service</h1>
+          <h2 class="services__title">We work with<span class="services__title-style">Amazing Services</span></h2>
+          <div class="services__options">
+            <ul class="services__options-nav">
+              <li class="icon-1">
+                <h4 class="services__options-nav-title">photography</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </li>
+              <li class="icon-2">
+                <h4 class="services__options-nav-title">web design</h4>
+                <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </li>
+              <li class="icon-3">
+                <h4 class="services__options-nav-title">creativity</h4>
+                <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </li>
+              <li class="icon-4">
+                <h4 class="services__options-nav-title">seo</h4>
+                <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+              </li>
+              <li class="icon-5">
+                <h4 class="services__options-nav-title">html/css</h4>
+                <p>Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
+              </li>
+              <li class="icon-6">
+                <h4 class="services__options-nav-title">digital</h4>
+                <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2 class="services__title">Who we are<span class="services__title-style">meet our team</span></h2>
+          <p class="team__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <ul class="team__wrap">
+            <li>
+              <div class="team__item">
+                <div class="overlay">
+                  <a href="#" class="facebook team__icon"></a>
+                  <a href="#" class="twitter team__icon"></a>
+                  <a href="#" class="pinterest team__icon"></a>
+                  <a href="#" class="instagram team__icon"></a>
+                </div>
+                <img src="img/image_item_1.jpg" width="380" height="470" alt="Matthew Dix">
+              </div>
+              <h4 class="team__wrap-item-title">Mathew Dix</h4>
+              <span class="team__wrap-item-subtitle">Graphic Design</span>
             </li>
-            <li class="icon-2">
-              <h4 class="services__options-nav-title">web design</h4>
-              <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <li>
+              <div class="team__item">
+                <div class="overlay">
+                  <a href="#" class="facebook team__icon"></a>
+                  <a href="#" class="twitter team__icon"></a>
+                  <a href="#" class="pinterest team__icon"></a>
+                  <a href="#" class="instagram team__icon"></a>
+                </div>
+                <img src="img/image_item_2.jpg" width="380" height="470" alt="Matthew Dix">
+              </div>
+              <h4 class="team__wrap-item-title">Hristopher Campbell</h4>
+              <span class="team__wrap-item-subtitle">Branding/UX Design</span>
             </li>
-            <li class="icon-3">
-              <h4 class="services__options-nav-title">creativity</h4>
-              <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-            </li>
-            <li class="icon-4">
-              <h4 class="services__options-nav-title">seo</h4>
-              <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-            </li>
-            <li class="icon-5">
-              <h4 class="services__options-nav-title">html/css</h4>
-              <p>Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
-            </li>
-            <li class="icon-6">
-              <h4 class="services__options-nav-title">digital</h4>
-              <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <li>
+              <div class="team__item">
+                <div class="overlay">
+                  <a href="#" class="facebook team__icon"></a>
+                  <a href="#" class="twitter team__icon"></a>
+                  <a href="#" class="pinterest team__icon"></a>
+                  <a href="#" class="instagram team__icon"></a>
+                </div>
+                <img src="img/image_item_3.jpg" width="380" height="470" alt="Matthew Dix">
+              </div>
+              <h4 class="team__wrap-item-title">michael fertig</h4>
+              <span class="team__wrap-item-subtitle">Developer</span>
             </li>
           </ul>
         </div>
       </section>
-      <section>
-        <h2 class="services__title">Who we are<span class="services__title-style">meet our team</span></h2>
-        <p class="team__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <ul class="team__wrap">
-          <li>
-            <div class="team__item">
-              <div class="overlay">
-                <a href="#" class="facebook team__icon"></a>
-                <a href="#" class="twitter team__icon"></a>
-                <a href="#" class="pinterest team__icon"></a>
-                <a href="#" class="instagram team__icon"></a>
-              </div>
-              <img src="img/image_item_1.jpg" width="380" height="470" alt="Matthew Dix">
-            </div>
-            <h4 class="team__wrap-item-title">Mathew Dix</h4>
-            <span class="team__wrap-item-subtitle">Graphic Design</span>
-          </li>
-          <li>
-            <div class="team__item">
-              <div class="overlay">
-                <a href="#" class="facebook team__icon"></a>
-                <a href="#" class="twitter team__icon"></a>
-                <a href="#" class="pinterest team__icon"></a>
-                <a href="#" class="instagram team__icon"></a>
-              </div>
-              <img src="img/image_item_2.jpg" width="380" height="470" alt="Matthew Dix">
-            </div>
-            <h4 class="team__wrap-item-title">Hristopher Campbell</h4>
-            <span class="team__wrap-item-subtitle">Branding/UX Design</span>
-          </li>
-          <li>
-            <div class="team__item">
-              <div class="overlay">
-                <a href="#" class="facebook team__icon"></a>
-                <a href="#" class="twitter team__icon"></a>
-                <a href="#" class="pinterest team__icon"></a>
-                <a href="#" class="instagram team__icon"></a>
-              </div>
-              <img src="img/image_item_3.jpg" width="380" height="470" alt="Matthew Dix">
-            </div>
-            <h4 class="team__wrap-item-title">michael fertig</h4>
-            <span class="team__wrap-item-subtitle">Developer</span>
-          </li>
-        </ul>
-      </section>
       <footer>
-        <span class="line"></span>
-        <div class="footer">
-          <p class="footer__copyright">© 2016 MoGo free PSD template by <a href="#">Laaqiq</a></p>
-          <form action="#" class="footer__subscribe-form">
-            <input type="email" name="email" placeholder="Your Email..." class="footer__subscribe-form-input">
-            <button class="footer__subscribe-form-btn">subscribe</button>
-          </form>
+        <div class="container">
+          <span class="line"></span>
+          <div class="footer">
+            <p class="footer__copyright">© 2016 MoGo free PSD template by <a href="#">Laaqiq</a></p>
+            <form action="#" class="footer__subscribe-form">
+              <input type="email" name="email" placeholder="Your Email..." class="footer__subscribe-form-input">
+              <button class="footer__subscribe-form-btn">subscribe</button>
+            </form>
+          </div>
         </div>
       </footer>
     </main>
