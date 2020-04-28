@@ -20,7 +20,7 @@ body {
 /*HEADER************************************/
 .banner {
   min-height: 600px;
-  background-image: var(--bg-gradient), url('../img/banner@1x.jpg');
+  background-image: var(--bg-gradient), url('../img/banner/banner@1x.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@ body {
 
 @media (min-resolution: 192dpi) {
 .banner {
-  background-image: url('../img/banner@2x.jpg');
+  background-image: url('../img/banner/banner@2x.jpg');
   }
 }
 
@@ -124,13 +124,13 @@ body {
 }
 
 .header__icon-glass {
-  background-image: url('../img/header_icons/glass.svg');
+  background-image: url('../img/icons/header_icons/glass.svg');
   width: 18px;
   height: 18px;
   }
 
 .header__icon-cart {
-  background-image: url('../img/header_icons/cart.svg');
+  background-image: url('../img/icons/header_icons/cart.svg');
   width: 18px;
   height: 14px;
 }
@@ -199,27 +199,27 @@ body {
 }
 
 .services__options .icon-1::before {
-  background-image: url(../img/items_icons/alarm.png);
+  background-image: url('../img/icons/items_icons/alarm.svg');
 }
 
 .services__options .icon-2::before {
-  background-image: url(../img/items_icons/line.png);
+  background-image: url('../img/icons/items_icons/line.svg');
 }
 
 .services__options .icon-3::before {
-  background-image: url(../img/items_icons/pc.png);
+  background-image: url('../img/icons/items_icons/pc.svg');
 }
 
 .services__options .icon-4::before {
-  background-image: url(../img/items_icons/book.png);
+  background-image: url('../img/icons/items_icons/book.svg');
 }
 
 .services__options .icon-5::before {
-  background-image: url(../img/items_icons/home.png);
+  background-image: url('../img/icons/items_icons/home.svg');
 }
 
 .services__options .icon-6::before {
-  background-image: url(../img/items_icons/image.png);
+  background-image: url('../img/icons/items_icons/image.svg');
 }
 /*********************************************/
 
@@ -288,7 +288,7 @@ body {
 }
 
 .team__icon:hover {
-  background-color: #95e1d3;
+  background-color: #f38181;
 }
 
 .team__item:hover {
@@ -318,7 +318,6 @@ body {
 .instagram {
   background-image: url(../img/social_icons/instagram.png);
 }
-
 /*********************************************/
 
 /*FOOTER**************************************/
