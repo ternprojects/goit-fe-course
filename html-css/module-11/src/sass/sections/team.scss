@@ -51,7 +51,7 @@
   box-shadow: 10px 10px 0px 0px #95e1d3;
   top: 0;
   left: 0;
-  background-image: var(--overlay-gradient);
+  background-image: $overlay-gradient;
 }
 
 .team__item-icon {
@@ -142,4 +142,5 @@
 .team__item-instagram:hover svg {
   fill: #ffffff;
 }
+
 /*********************************************/

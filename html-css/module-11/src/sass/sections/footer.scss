@@ -1,9 +1,84 @@
 /*FOOTER**************************************/
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding-bottom: 12px;
+
+  &__copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  &__copyright a {
+    color: #f38181;
+    text-decoration: none;
+  }
+
+  &__copyright a:hover {
+    text-decoration: underline;
+  }
+
+  &__copyright a:focus {
+    font-weight: 900;
+  }
+
+  &__subscribe-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  &__subscribe-form-input {
+    width: 234px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    padding-left: 12px;
+  }
+
+  &__subscribe-form-btn {
+    background-color: #95e1d3;
+    width: 150px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  &__subscribe-form-input::-webkit-input-placeholder {
+    color: #cccccc;
+  }
+
+  &__subscribe-form-input::-moz-placeholder {
+    color: #cccccc;
+  }
+
+  &__subscribe-form-input:-ms-input-placeholder {
+    color: #cccccc;
+  }
+
+  &__subscribe-form-input::-ms-input-placeholder {
+    color: #cccccc;
+  }
+
+  &__subscribe-form-input::placeholder {
+    color: #cccccc;
+  }
+
 }
 
 .line {
@@ -14,53 +89,4 @@
   margin: 86px 0 10px 0;
 }
 
-.footer__copyright {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  color: #000000;
-}
-
-.footer__copyright a {
-  color: #f38181;
-  text-decoration: none;
-}
-
-.footer__copyright a:hover {
-  text-decoration: underline;
-}
-
-.footer__copyright a:focus {
-  font-weight: 900;
-}
-
-.footer__subscribe-form {
-  display: flex;
-}
-
-.footer__subscribe-form-input {
-  width: 234px;
-  height: 40px;
-  border: 1px solid #e7e7e7;
-  background-color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  font-weight: 300;
-  font-style: italic;
-  padding-left: 12px;
-}
-
-.footer__subscribe-form-btn {
-  background-color: #95e1d3;
-  width: 150px;
-  height: 40px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  font-weight: 900;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-
-.footer__subscribe-form-input::placeholder {
-  color: #cccccc;
-}
 /*********************************************/

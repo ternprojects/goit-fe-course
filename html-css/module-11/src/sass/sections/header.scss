@@ -14,76 +14,11 @@
   }
 }
 
-.header {
-  padding-top: 34px;
-}
-
 .navigation {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 204px;
-}
-
-.header__list-wrapper {
-  display: flex;
-}
-
-.header__list {
-  display: flex;
-  margin-right: 52px;
-}
-
-.header__icon {
-  display: flex;
-}
-
-.header__icon li:not(:last-child) {
-  margin-right: 42px;
-}
-
-.header__list a {
-  display: block;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  text-decoration: none;
-  cursor: pointer;
-  text-transform: uppercase;
-  transition: all 200ms linear;
-  position: relative;
-}
-
-.header__list a:hover,
-.header__list a:focus {
-  color: #fce38a;
-}
-
-.header__list a::after {
-  position: absolute;
-  transform: translateY(12px);
-  content: "";
-  display: block;
-  width: 100%;
-  opacity: 0;
-  visibility: hidden;
-  background-color: #fce38a;
-  height: 3px;
-  transition: all 200ms linear;
-}
-
-.header__list a:hover::after {
-  opacity: 1;
-  visibility: visible;
-}
-
-.header__list li:not(:last-child) {
-  margin-right: 54px;
-}
-
-.header__icon li:not(:last-child) {
-  margin-right: 42px;
 }
 
 .logo {
@@ -95,57 +30,123 @@
   text-decoration: none;
 }
 
-.header__icon button {
-  display: block;
-  cursor: pointer;
-}
+.header {
+  padding-top: 34px;
 
-.header__icon-glass {
-  background-image: url('../images/icons/header_icons/glass.svg');
-  width: 18px;
-  height: 18px;
-}
+  &__list-wrapper {
+    display: flex;
+  }
 
-.header__icon-cart {
-  background-image: url('../images/icons/header_icons/cart.svg');
-  width: 18px;
-  height: 14px;
-}
+  &__list {
+    display: flex;
+    margin-right: 52px;
+  }
 
-.header__descr-wrapper {
-  text-align: center;
-  color: #ffffff;
-  padding-bottom: 230px;
-}
+  &__icon {
+    display: flex;
+  }
 
-.header__title {
-  font-family: 'Kaushan Script', sans-serif;
-  font-size: 72px;
-  margin: 0;
-  margin-bottom: 70px;
-}
+  &__icon li:not(:last-child) {
+    margin-right: 42px;
+  }
 
-.header__subtitle {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 150px;
-  text-transform: uppercase;
-  line-height: 140px;
-  padding: 0 50px;
-  margin-bottom: 130px;
-}
+  &__list a {
+    display: block;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 200ms linear;
+    position: relative;
+  }
 
-.header__button {
-  border: 3px solid #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  color: #ffffff;
-  text-decoration: none;
-  display: block;
-  width: 164px;
-  height: 44px;
-  margin: 0 auto;
-  padding: 12px 30px;
-  text-align: center;
+  &__list a:hover,
+  &__list a:focus {
+    color: #fce38a;
+  }
+
+  &__list a::after {
+    position: absolute;
+    transform: translateY(12px);
+    content: "";
+    display: block;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #fce38a;
+    height: 3px;
+    transition: all 200ms linear;
+  }
+
+  &__list a:hover::after {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__list li:not(:last-child) {
+    margin-right: 54px;
+  }
+
+  &__icon li:not(:last-child) {
+    margin-right: 42px;
+  }
+
+  &__icon button {
+    display: block;
+    cursor: pointer;
+  }
+
+  &__icon-glass {
+    background-image: url('../images/icons/header_icons/glass.svg');
+    width: 18px;
+    height: 18px;
+  }
+
+  &__icon-cart {
+    background-image: url('../images/icons/header_icons/cart.svg');
+    width: 18px;
+    height: 14px;
+  }
+
+  &__descr-wrapper {
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 230px;
+  }
+
+  &__title {
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 72px;
+    margin: 0;
+    margin-bottom: 70px;
+  }
+
+  &__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;
+    text-transform: uppercase;
+    line-height: 140px;
+    padding: 0 50px;
+    margin-bottom: 130px;
+  }
+
+  &__button {
+    border: 3px solid #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 164px;
+    height: 44px;
+    margin: 0 auto;
+    padding: 12px 30px;
+    text-align: center;
+  }
+
 }
 
 /***********************************************/
