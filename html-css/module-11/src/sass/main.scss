@@ -3,5 +3,12 @@
  */
 
 @import 'normalize.scss';
+@import 'helpers/values.scss';
+@import 'helpers/fonts';
 @import 'base.scss';
-@import './sections/header.scss';
+@import 'components/sections-title.scss';
+@import 'sections/header.scss';
+@import 'sections/services.scss';
+@import 'sections/team.scss';
+@import 'sections/footer.scss';
+

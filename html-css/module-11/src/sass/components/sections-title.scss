@@ -1,0 +1,28 @@
+/*TITLES****************************************/
+.title {
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  margin: 42px auto 0;
+}
+
+.subtitle {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #000000;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+/*********************************************/
