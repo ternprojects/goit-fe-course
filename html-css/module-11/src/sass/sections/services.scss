@@ -1,0 +1,58 @@
+/*SERVICES************************************/
+.services__options-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 340px;
+}
+
+.services__options-nav li {
+  padding-left: 92px;
+  width: 386px;
+  position: relative;
+}
+
+.services__options li::before {
+  content: '';
+  width: 32px;
+  height: 31px;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  left: 30px;
+  top: 0px;
+}
+
+.services__options-nav-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.services__options .icon-1::before {
+  background-image: url('../img/icons/items_icons/alarm.svg');
+}
+
+.services__options .icon-2::before {
+  background-image: url('../img/icons/items_icons/line.svg');
+}
+
+.services__options .icon-3::before {
+  background-image: url('../img/icons/items_icons/pc.svg');
+}
+
+.services__options .icon-4::before {
+  background-image: url('../img/icons/items_icons/book.svg');
+}
+
+.services__options .icon-5::before {
+  background-image: url('../img/icons/items_icons/home.svg');
+}
+
+.services__options .icon-6::before {
+  background-image: url('../img/icons/items_icons/image.svg');
+}
+/*********************************************/

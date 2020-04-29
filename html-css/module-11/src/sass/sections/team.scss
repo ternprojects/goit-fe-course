@@ -1,0 +1,145 @@
+/*TEAM****************************************/
+.team__text {
+  width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 90px;
+  line-height: 24px;
+}
+
+.team__wrap {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.team__item {
+  transition: all 200ms linear;
+  position: relative;
+}
+
+.team__item-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  text-transform: uppercase;
+  margin-top: 32px;
+}
+
+.team__item-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #999999;
+  text-align: center;
+  font-style: italic;
+  margin-top: 18px;
+  line-height: 24px;
+  display: block;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: all 200ms linear;
+  box-shadow: 10px 10px 0px 0px #95e1d3;
+  top: 0;
+  left: 0;
+  background-image: var(--overlay-gradient);
+}
+
+.team__item-icon {
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.team__item-icon:hover {
+  background-color: #f38181;
+}
+
+.team__item:hover {
+  transform: translate(-10px, -10px);
+}
+
+.team__item:hover .overlay {
+  transform: translate(-10px, -10px);
+  opacity: 1;
+}
+
+.team__item-facebook {
+  border-right: 1px solid #f38181;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team__item-facebook svg {
+  fill: #f38181;
+  width: 32px;
+  height: 32px;
+}
+
+.team__item-facebook:hover svg {
+  fill: #ffffff;
+}
+
+.team__item-twitter {
+  border-right: 1px solid #f38181;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team__item-twitter svg {
+  fill: #f38181;
+  width: 32px;
+  height: 32px;
+}
+
+.team__item-twitter:hover svg {
+  fill: #ffffff;
+}
+
+.team__item-pinterest {
+  border-right: 1px solid #f38181;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team__item-pinterest svg {
+  fill: #f38181;
+  width: 32px;
+  height: 32px;
+}
+
+.team__item-pinterest:hover svg {
+  fill: #ffffff;
+}
+
+.team__item-instagram {
+  border-right: 1px solid #f38181;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team__item-instagram svg {
+  fill: #f38181;
+  width: 32px;
+  height: 32px;
+}
+
+.team__item-instagram:hover svg {
+  fill: #ffffff;
+}
+/*********************************************/
