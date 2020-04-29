@@ -3,8 +3,7 @@
   --overlay-gradient: linear-gradient(90deg, rgba(252, 227, 138, .9) 0%, rgba(243, 129, 129, .9) 100%);
   --bg-gradient: linear-gradient(90deg, rgba(252, 227, 138, .9) 0%, rgba(243, 129, 129, .9) 100%);
 }
-
-/***********************************/
+/**********************************/
 
 body {
    font-family: 'Roboto', sans-serif;
@@ -28,14 +27,13 @@ body {
 }
 
 @media (min-resolution: 192dpi) {
-.banner {
-  background-image: url('../img/banner/banner@2x.jpg');
+  .banner {
+    background-image: var(--bg-gradient), url('../img/banner/banner@2x.jpg');
+    }
   }
-}
 
 .header {
   padding-top: 34px;
- 
 }
 
 .navigation {
@@ -50,7 +48,7 @@ body {
 }
 
 .header__list {
-  display: flex; 
+  display: flex;
   margin-right: 52px;
 }
 
@@ -167,7 +165,7 @@ body {
   padding: 12px 30px;
   text-align: center;
 }
-/*********************************************/
+/***********************************************/
 
 /*TITLES****************************************/
 .title {
@@ -286,7 +284,7 @@ body {
 }
 
 .team__item-subtitle {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 15px;
   color: #999999;
@@ -450,15 +448,13 @@ body {
   font-size: 15px;
   font-weight: 300;
   font-style: italic;
-  
   padding-left: 12px;
 }
 
 .footer__subscribe-form-btn {
   background-color: #95e1d3;
   width: 150px;
-  height: 40px;
-  font-family: ;
+  height: 40px;  
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 900;
